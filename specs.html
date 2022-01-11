@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tudo sobre Google Glass</title>
     <link rel="stylesheet" href="_css/estilo.css">
+    <link rel="stylesheet" href="_css/specs.css">
     <script src="_javascript/funcoes.js"></script>
 </head>
 <body>
@@ -30,7 +31,7 @@
             </nav>
         </header>
 
-        <section id="corpo">
+        <section id="corpo-full">
             <article id="noticia-principal">
                 <header id="cabecalho-artigo">
                     <hgroup>
@@ -41,11 +42,19 @@
                     </hgroup>
                 </header>
     
-    
             <p>Clique em qualquer área destacada da imagem para ter mais informações sobre os recursos do Google Glass. Qualquer ponto vermelho vai te levar a um lugar cheio de novas informações.</p>
             
-            [AQUI ENTRA UMA IMAGEM]
-    
+            <section id="conteudo">
+                <img src="_imagens/glass-esquema-marcado.jpg" alt="Esquema do Google Glass" usemap="#meumapa">
+                <map name="meumapa">
+                    <area shape="rect" coords="178,204,266,255" href="google-glass.html#tela" target="janela">
+                    <area shape="circle" coords="157,243,12" href="google-glass.html#camera" target="janela">
+                    <area shape="circle" coords="77,51,12" href="google-glass.html#gadgets" target="janela">
+                    <area shape="poly" coords="27,141,82,214,84,253,27,169" href="google-glass.html#sensores" target="janela">
+                </map>
+                <iframe src="google-glass.html" name="janela" id="frame-spec"></iframe>
+            </section>
+
             </article>
         </section>
 
