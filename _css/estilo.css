@@ -183,6 +183,13 @@ table#tabelaspec td {
     background-color: #cecece;
 }
 
+/* FORMATAÇÃO DO PRIMEIRO VÍDEO */
+article#noticia-principal video#video01 {
+    display: block;
+    margin: 0px auto 10px auto;
+    width: 500px;
+}
+
 /* FORMATAÇÃO DO ASIDE 'LATERAL' */
 aside#lateral {
     display: block;
@@ -205,6 +212,10 @@ aside#lateral h2 {
     color: white;  
     padding: 5px 0px 5px 10px;
     margin: 10px 0px;
+}
+aside#lateral video#video02 {
+    display: block;
+    margin: auto;
 }
 
 /* FORMATAÇÃO DO RODAPÉ */
